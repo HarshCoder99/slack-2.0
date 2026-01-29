@@ -78,7 +78,7 @@ const InviteModal = ({ channel, onClose }) => {
               return (
                 <label
                   key={user.id}
-                  className={`flex items-center gap-4 p-3 rounded-lg cursor-pointer transition-all shadow-sm bg-white hover:bg-[#f5f3ff] border-2 ${isChecked ? "border-[#611f69] bg-[#f3e6fa]" : "border-gray-200"}`}
+                  className={`flex items-center gap-4 p-3 mt-4 rounded-lg cursor-pointer transition-all shadow-sm bg-white hover:bg-[#f5f3ff] border-2 ${isChecked ? "border-[#611f69] bg-[#f3e6fa]" : "border-gray-200"}`}
                 >
                   <input
                     type="checkbox"

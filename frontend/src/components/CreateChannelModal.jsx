@@ -53,13 +53,13 @@ const CreateChannelModal = ({  onClose }) => {
   }, [client]);
 
   // reset the form on open
-  useEffect(() => {
-    setChannelName("");
-    setDescription("");
-    setChannelType("public");
-    setError("");
-    setSelectedMembers([]);
-  }, []);
+  // useEffect(() => {
+  //   setChannelName("");
+  //   setDescription("");
+  //   setChannelType("public");
+  //   setError("");
+  //   setSelectedMembers([]);
+  // }, []);
 
   // auto-select all users for public channels
   useEffect(() => {
